@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:iconsax/iconsax.dart';
 import 'package:recipe_app/constants.dart';
 import 'package:recipe_app/core/utils/styles.dart';
 
@@ -29,7 +30,7 @@ class CustomSearchField extends StatelessWidget {
           prefixIcon:const  Padding(
             padding:  EdgeInsets.symmetric(horizontal: 16.0),
             child:  Icon(
-              FontAwesomeIcons.magnifyingGlass,
+              Iconsax.search_normal_14,
               size: 25,
               color: Color.fromARGB(255, 96, 94, 94),
                     
