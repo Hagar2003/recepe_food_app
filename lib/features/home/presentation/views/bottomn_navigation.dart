@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:iconsax/iconsax.dart';
 import 'package:recipe_app/constants.dart';
 import 'package:recipe_app/core/utils/styles.dart';
 import 'package:recipe_app/features/home/presentation/views/home_screen.dart';
@@ -32,25 +33,25 @@ class _AppBottomNavigationState extends State<AppBottomNavigation> {
         },
         currentIndex: selectedPage,
         type: BottomNavigationBarType.fixed,
-        unselectedItemColor: Colors.black,
+        unselectedItemColor: Colors.grey,
         unselectedLabelStyle: Styles.Text16,
         selectedLabelStyle: Styles.Text18,
         selectedItemColor: kPrimaryColor,
         items: const [
           BottomNavigationBarItem(
-            icon: Icon(Icons.home,size: 40,),
+            icon: Icon(Iconsax.home5,size: 35,),
             label: 'Home',
           ),
             BottomNavigationBarItem(
-            icon: Icon(Icons.favorite_border,size: 40),
-            label: 'Favourites',
+            icon: Icon(Icons.favorite_border,size: 35),
+            label: 'Favorites',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.home,size: 40),
+            icon: Icon(Iconsax.calendar_1,size: 35),
             label: 'Meal Plan',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.settings,size: 40),
+            icon: Icon(Iconsax.setting,size: 35),
             label: 'Settings',
       
       )],
@@ -60,9 +61,7 @@ class _AppBottomNavigationState extends State<AppBottomNavigation> {
         
         children: [
         const  HomeScreen(),
-          // ExploreView(),
-          // CartView(),
-          // Favourite(),
+      
           Container(),
             Container(),
               Container(),
