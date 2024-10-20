@@ -1,7 +1,11 @@
 {
+<<<<<<< HEAD
   "cSpell.words": [
     "catgories",
     "Iconsax",
     "kprimary"
   ]
+=======
+    "java.configuration.updateBuildConfiguration": "interactive"
+>>>>>>> 160451f179b075a118d3c397b79dd5b61984a771
 }
