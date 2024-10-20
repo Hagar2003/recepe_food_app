@@ -4,8 +4,8 @@ import 'package:recipe_app/constants.dart';
 import 'package:recipe_app/core/utils/styles.dart';
 
 class CustomSearchField extends StatelessWidget {
- CustomSearchField({super.key,required this.text});
-  String text;
+const CustomSearchField({super.key,required this.text});
+final  String text;
   @override
   Widget build(BuildContext context) {
     return TextField(maxLines: 2,
