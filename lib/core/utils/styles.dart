@@ -22,7 +22,7 @@ static const Text23 = TextStyle(
        color:  Colors.grey);
 
         static const Text188 = TextStyle(
-      fontSize: 16, fontWeight: FontWeight.w700,
+      fontSize: 18, fontWeight: FontWeight.w700,
        color:  kPrimaryColor);
        static const Text35 = TextStyle(
       fontSize: 30, fontWeight: FontWeight.w800,height: 1

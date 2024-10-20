@@ -17,7 +17,7 @@ class _SplashViewState extends State<SplashView> {
   void initState() {
     super.initState();
     timer = Timer.periodic(
-    const  Duration(seconds: 1),
+    const  Duration(seconds: 2),
       (_) {
         GoRouter.of(context).pushReplacement(AppRouter.kAppBottomNavigation);
       },
@@ -33,7 +33,7 @@ class _SplashViewState extends State<SplashView> {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      backgroundColor: const Color.fromARGB(255, 172, 240, 216),
+      backgroundColor:const Color.fromARGB(255, 172, 240, 216),
       body: SplashViewBody(),
     );
   }

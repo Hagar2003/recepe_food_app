@@ -9,7 +9,7 @@ class BannerPart extends StatelessWidget {
       height: 190,
       width: double.infinity,
       decoration: BoxDecoration(
-          color: Colors.red,
+        
           borderRadius: BorderRadius.circular(16),
           image: const DecorationImage(
               fit: BoxFit.fill,

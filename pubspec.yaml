@@ -37,6 +37,12 @@ dependencies:
   cupertino_icons: ^1.0.8
   go_router: ^14.3.0
   font_awesome_flutter: ^10.7.0
+  animated: ^2.0.0
+  text: ^0.2.0
+  kit: ^1.0.2
+  lottie: ^3.1.3
+  iconsax: ^0.0.8
+  animated_text_kit: ^4.2.2
 
 dev_dependencies:
   flutter_test:
